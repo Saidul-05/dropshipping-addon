@@ -1,0 +1,23 @@
+{
+    "name": "your-vendor/dropshipping-addon",
+    "description": "Dropshipping Add-On for Laravel CMS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\DropshippingAddon\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/framework": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourVendor\\DropshippingAddon\\Providers\\DropshippingServiceProvider"
+            ]
+        }
+    }
+}
